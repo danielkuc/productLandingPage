@@ -1,0 +1,145 @@
+/*at least one media query*/
+/*use flexbox at least once*/
+*{
+	box-sizing: border-box;
+	font-family: Helvetica ,sans-serif;
+	font-size: 18px;
+	line-height: 1.8rem;
+}
+
+body {
+background:#f0eded;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2, h3 {
+	font-size: 28px;
+}
+
+.cont2 p {
+	font-size: 1.5em;
+}
+
+div h3 {
+	background: rgba(255, 162, 0, .8);
+	text-align: center;
+	margin: 0 0 0 -2vw;
+	padding:1vh 0;
+}
+
+#header {
+	margin-bottom: 10vh;
+}
+
+.cont2 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+img {
+	width: 15%;
+	display: inline-block;
+	position:relative;
+	top:6vh;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+#nav-list {
+	display:inline;
+	overflow: hidden;
+}
+
+.nav-link{
+	float:right;
+	margin:0 .4vw;
+	padding: 10px;
+}
+
+
+#nav-bar {
+	padding-bottom: 1.5vh;
+	padding-right: 1.5vw;
+	position: fixed;
+	top:0;
+	right:0;
+	z-index: 1;
+	width: 100vw;
+	background:#f0eded;
+}
+
+#header-img {
+	margin-left: 2vw;
+}
+
+.features {
+	margin:0 auto;
+	max-width: 80vw;
+	background: rgba(255, 162, 0, .8);
+	padding: 4%;
+}
+
+#video {
+	display:block;
+	margin:10vh auto 5vh auto;
+}
+
+.flex-container {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: space-around;
+	margin:10vh auto;
+}
+
+.flex-container p {
+	font-size: 18px;
+}
+
+.flex-container div {
+	border:1px solid #000;
+	padding-left: 2vw;
+	width: 25vw;
+	overflow:none;
+}
+
+button {
+	background-color:rgba(255, 162, 0, .8); 
+	margin-left: 8vw;
+	margin-bottom: 2vh;
+}
+
+#form {
+	text-align: center;
+	margin:5vh auto;
+}
+
+#submit{
+	display: block;
+	margin:2vh auto;
+	width:30%;
+}
+
+footer {
+	text-align: right;
+}
+
+@media (max-width: 767px) {
+	
+
+	img{
+		position: relative;
+		left:42%;
+		margin-top: 3vh;
+		margin-bottom: 3vh;
+	}
+}
